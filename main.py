@@ -13,5 +13,6 @@ import random
 tag = len(names)
 a = tag - 1
 it = random.randint(0, a)
-print(names[it])
+
+print(f"{names[it]} is going to buy the meal today!")
 
